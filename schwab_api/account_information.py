@@ -19,9 +19,10 @@ class Account(dict):
 
     def __repr__(self) -> str:
         return str(self._as_dict())
-        
+
     def __str__(self) -> str:
         return str(self._as_dict())
+
 
 class Position(dict):
     def __init__(self, symbol, description, quantity, cost, market_value, security_id):
